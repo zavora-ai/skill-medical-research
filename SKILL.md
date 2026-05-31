@@ -1,12 +1,11 @@
 ---
 name: medical-research
 description: Orchestrate clinical research — search PubMed literature, access WHO global health data, compare country health indicators, and retrieve medical statistics. Use when searching medical literature, finding clinical studies, checking WHO health data, comparing country health metrics, or researching disease statistics.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-medical server connected (PubMed, WHO GHO — free, no API keys).
 allowed-tools: [pubmed_search, pubmed_get_abstract, who_get_indicator, who_country_profile, who_compare_countries, who_search_indicators, who_list_common_indicators]
-tags: [business, medical, research, pubmed, who, health, clinical]
 metadata:
+  category: mcp-enhancement
   author: Zavora AI
   mcp-server: mcp-medical
   success-criteria:
